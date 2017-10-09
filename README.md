@@ -1,32 +1,15 @@
-[![Build Status](https://travis-ci.org/stevespringett/dependency-track.svg?branch=master)](https://travis-ci.org/stevespringett/dependency-track) [ ![Download](https://api.bintray.com/packages/stevespringett/owasp/dependency-track/images/download.svg) ](https://bintray.com/stevespringett/owasp/dependency-track/_latestVersion)
+[![Join the chat at https://gitter.im/dependency-track/Lobby](https://badges.gitter.im/dependency-track/Lobby.svg)](https://gitter.im/dependency-track/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 Dependency-Track
 =========
 
-OWASP Dependency-Track is a Java web application that allows organizations to
-document the use of third-party components across multiple applications and
-versions. Further, it provides automatic visibility into the use of components
-with known vulnerabilities.
+OWASP Dependency-Track is an intelligent Software Composition Analysis (SCA) application that allows organizations to automatically ingest and identify third-party components and any inherited vulnerabilities from their use.
 
-The OWASP Top Ten 2013 introduces, for the first time, the use of third-party
-components with known vulnerabilities. Dependency-Track aims to document the
-usage of all components, the vendors, libraires, versions and licenses used
-and provide visibility into the use of vulnerable components.
+The master branch is currently legacy and unsupported. Please see the [3.0-dev](https://github.com/stevespringett/dependency-track/tree/3.0-dev) branch for ongoing Dependency-Track development. 
 
-Development of Dependency-Track is sponsored in part by [Axway]
-
-Installation, configuration and how-to's can be found on the [GitHub Wiki].
-
-General project information can be found on the [OWASP Wiki].
-
-
-Usage
+Roadmap
 -
-
-> $ mvn package
-
-Finally, deploy the resulting WAR to your web application server (Tomcat, Jetty, etc)
-
+As of October 2017, the current plan is to attempt to get beta releases of 3.0 delivered in December or January. Once betas are delivered, the 3.0-dev branch will become the new master branch.
 
 Mailing List
 -
@@ -38,7 +21,7 @@ Post: [owasp_dependency_track_project@lists.owasp.org] [post]
 Copyright & License
 -
 
-Dependency-Track is Copyright (c) Axway. All Rights Reserved.
+Dependency-Track is Copyright (c) Steve Springett. All Rights Reserved.
 
 Permission to modify and redistribute is granted under the terms of the GPLv3
 license. See the [LICENSE.txt] [GPLv3] file for the full license.
@@ -52,4 +35,3 @@ the [NOTICES.txt] [notices] file for more information.
   [post]: mailto:owasp_dependency_track_project@lists.owasp.org
   [GPLv3]: https://github.com/stevespringett/dependency-track/blob/master/LICENSE.txt
   [notices]: https://github.com/stevespringett/dependency-track/blob/master/NOTICES.txt
-  [axway]: http://www.axway.com
